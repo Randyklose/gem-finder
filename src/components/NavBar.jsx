@@ -19,7 +19,7 @@ export const NavBar = () => {
               <Link href="#">About</Link>
             </Typography>
             <Typography variant="h6">
-              <Link href="#">blog</Link>
+              <Link href="#">Blog</Link>
             </Typography>
           </Box>
           <Button color="inherit">Login</Button>
