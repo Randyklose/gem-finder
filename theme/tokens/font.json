@@ -1,0 +1,91 @@
+{
+    "base": {
+        "font": {
+            "size": {
+                "xs": {
+                    "value": "12px"
+                },
+                "s": {
+                    "value": "14px"
+                },
+                "m": {
+                    "value": "16px"
+                },
+                "l": {
+                    "value": "18px"
+                },
+                "xl": {
+                    "value": "20px"
+                },
+                "xxl": {
+                    "value": "24px"
+                },
+                "3xl": {
+                    "value": "30px"
+                },
+                "4xl": {
+                    "value": "48px"
+                },
+                "5xl": {
+                    "value": "64px"
+                },
+                "icon": {
+                    "value": "{base.font.size.xxl.value}"
+                }
+            },
+            "line-height": {
+                "s": {
+                    "value": "1.1"
+                },
+                "m": {
+                    "value": "1.25"
+                },
+                "l": {
+                    "value": "1.5"
+                },
+                "xl": {
+                    "value": "2"
+                }
+            },
+            "weight": {
+                "bold": {
+                    "value": "bold"
+                },
+                "normal": {
+                    "value": "normal"
+                }
+            },
+            "family": {
+                "icon": {
+                    "value": "Shutterstock-Icons",
+                    "comment": "https://github.shuttercorp.net/pages/studio/deploy-shutterstock-styleguide/#/Style/Icon%20List"
+                },
+                "primary": {
+                    "value": "Shutterstock-DINNextW1G",
+                    "comment": "Din Next W1G is the standard typeface on Shutterstock web, native, and email."
+                },
+                "secondary": {
+                    "base": {
+                        "value": "Shutterstock-NotoSans",
+                        "comment": "Noto sans is the standard typeface for all languages not covered by Din Next W1G."
+                    },
+                    "thai": {
+                        "value": "{base.font.family.secondary.base.value}Thai"
+                    },
+                    "jp": {
+                        "value": "{base.font.family.secondary.base.value}Jp"
+                    },
+                    "ko": {
+                        "value": "{base.font.family.secondary.base.value}Ko"
+                    },
+                    "sc": {
+                        "value": "{base.font.family.secondary.base.value}Sc"
+                    },
+                    "tc": {
+                        "value": "{base.font.family.secondary.base.value}Tc"
+                    }
+                }
+            }
+        }
+    }
+}

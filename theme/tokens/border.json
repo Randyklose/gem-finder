@@ -1,0 +1,57 @@
+{
+    "base": {
+        "border": {
+            "radius": {
+                "s": {
+                    "value": "2px"
+                },
+                "m": {
+                    "value": "4px"
+                },
+                "l": {
+                    "value": "8px"
+                },
+                "xl": {
+                    "value": "16px"
+                },
+                "xxl": {
+                    "value": "20px"
+                },
+                "3xl": {
+                    "value": "25px"
+                },
+                "default": {
+                    "value": "{base.border.radius.s.value}"
+                },
+                "rounded-button": {
+                    "value": "{base.border.radius.xxl.value}"
+                },
+                "pill": {
+                    "value": "{base.border.radius.3xl.value}"
+                },
+                "round": {
+                    "value": "50%"
+                }
+            },
+            "width": {
+                "s": {
+                    "value": "1px"
+                },
+                "m": {
+                    "value": "2px"
+                },
+                "default": {
+                    "value": "{base.border.width.s.value}"
+                },
+                "avatar": {
+                    "value": "{base.border.width.m.value}"
+                }
+            },
+            "focus": {
+                "primary": {
+                    "value": "5px auto -webkit-focus-ring-color"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "base": {
+        "color": {
+            "black": {
+                "value": "#000000",
+                "rawRgbValue": "0, 0, 0"
+            },
+            "black-12": {
+                "value": "rgba({base.color.black.rawRgbValue}, {base.color-opacity.12.value})"
+            },
+            "black-38": {
+                "value": "rgba({base.color.black.rawRgbValue}, {base.color-opacity.38.value})"
+            },
+            "black-50": {
+                "value": "rgba({base.color.black.rawRgbValue}, {base.color-opacity.50.value})"
+            },
+            "blue": {
+                "aqua": {
+                    "value": "#43b9d3"
+                },
+                "azure": {
+                    "value": "#0070f0"
+                },
+                "sky": {
+                    "value": "#cce2fc"
+                },
+                "stone": {
+                    "value": "#ccd5e3"
+                }
+            },
+            "gray": {
+                "coal": {
+                    "value": "#292f38"
+                },
+                "iron": {
+                    "value": "#cacdd2",
+                    "rawRgbValue": "202, 205, 210"
+                },
+                "iron-60": {
+                    "value": "rgba({base.color.gray.iron.rawRgbValue}, {base.color-opacity.60.value})"
+                },
+                "logo": {
+                    "value": "#25282a"
+                },
+                "marble": {
+                    "value": "#f3f4f5"
+                },
+                "onyx": {
+                    "value": "#0c121c",
+                    "rawRgbValue": "12, 18, 28"
+                },
+                "onyx-6": {
+                    "value": "rgba({base.color.gray.onyx.rawRgbValue}, {base.color-opacity.6.value})"
+                },
+                "onyx-12": {
+                    "value": "rgba({base.color.gray.onyx.rawRgbValue}, {base.color-opacity.12.value})"
+                },
+                "onyx-38": {
+                    "value": "rgba({base.color.gray.onyx.rawRgbValue}, {base.color-opacity.38.value})"
+                },
+                "onyx-50": {
+                    "value": "rgba({base.color.gray.onyx.rawRgbValue}, {base.color-opacity.50.value})"
+                },
+                "onyx-60": {
+                    "value": "rgba({base.color.gray.onyx.rawRgbValue}, {base.color-opacity.60.value})"
+                },
+                "onyx-87": {
+                    "value": "rgba({base.color.gray.onyx.rawRgbValue}, {base.color-opacity.87.value})"
+                },
+                "slate": {
+                    "value": "#85888F"
+                }
+            },
+            "green": {
+                "jungle": {
+                    "value": "#26bd7e"
+                },
+                "seafoam": {
+                    "value": "#bce9e3"
+                }
+            },
+            "red": {
+                "basic": {
+                    "value": "#ff0000"
+                },
+                "logo": {
+                    "value": "#ee3625"
+                },
+                "rose": {
+                    "value": "#da3928"
+                },
+                "tomato": {
+                    "value": "#f54336",
+                    "rawRgbValue": "245, 67, 54"
+                },
+                "tomato-38": {
+                    "value": "rgba({base.color.red.tomato.rawRgbValue}, {base.color-opacity.38.value})"
+                }
+            },
+            "white": {
+                "value": "#ffffff",
+                "rawRgbValue": "255, 255, 255"
+            },
+            "white-12": {
+                "value": "rgba({base.color.white.rawRgbValue}, {base.color-opacity.12.value})"
+            },
+            "white-50": {
+                "value": "rgba({base.color.white.rawRgbValue}, {base.color-opacity.50.value})"
+            },
+            "white-70": {
+                "value": "rgba({base.color.white.rawRgbValue}, {base.color-opacity.70.value})"
+            },
+            "white-96": {
+                "value": "rgba({base.color.white.rawRgbValue}, {base.color-opacity.96.value})"
+            },
+            "yellow": {
+                "amber": {
+                    "value": "#ffb300"
+                },
+                "cream": {
+                    "value": "#fee7c2"
+                }
+            }
+        }
+    }
+}

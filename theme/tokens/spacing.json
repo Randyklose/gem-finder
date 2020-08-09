@@ -1,0 +1,36 @@
+{
+    "base": {
+        "spacing": {
+            "xxs": {
+                "value": "2px"
+            },
+            "xs": {
+                "value": "4px"
+            },
+            "s": {
+                "value": "8px"
+            },
+            "base": {
+                "value": "16px"
+            },
+            "m": {
+                "value": "24px"
+            },
+            "l": {
+                "value": "36px"
+            },
+            "xl": {
+                "value": "48px"
+            },
+            "xxl": {
+                "value": "72px"
+            },
+            "3xl": {
+                "value": "96px"
+            },
+            "4xl": {
+                "value": "136px"
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "base": {
+        "size": {
+            "density": {
+                "high": {
+                    "value": "40px",
+                    "comment": "Use when there is a high density of components on a page"
+                },
+                "base": {
+                    "value": "48px",
+                    "comment": "The base value for density. For more information on the priciple of density, visit https://material.io/design/layout/applying-density.html"
+                }
+            }
+        }
+    }
+}
