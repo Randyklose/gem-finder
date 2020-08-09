@@ -13,10 +13,10 @@ export const NavBar = () => {
           </IconButton>
           <Box display="flex">
             <Typography variant="h6">
-              <Link href="#">Home</Link>
+              <Link href="/">Home</Link>
             </Typography>
             <Typography variant="h6">
-              <Link href="#">About</Link>
+              <Link href="/about">About</Link>
             </Typography>
             <Typography variant="h6">
               <Link href="#">Blog</Link>
