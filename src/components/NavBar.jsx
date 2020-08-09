@@ -18,6 +18,9 @@ export const NavBar = () => {
             <Typography variant="h6">
               <Link href="#">About</Link>
             </Typography>
+            <Typography variant="h6">
+              <Link href="#">blog</Link>
+            </Typography>
           </Box>
           <Button color="inherit">Login</Button>
         </Toolbar>
