@@ -1,14 +1,18 @@
 import {
     color,
-    border as borderTokens,
-    font as fontTokens,
-    opacity as opacityTokens,
-    size as sizeTokens,
-    spacing as spacingTokens,
+    border,
+    font,
+    opacity,
+    size,
+    spacing,
 } from './tokens';
-import { typography } from './typography';
+import {
+    typography
+} from './typography';
 
-const spacingValues = Object.values(spacingTokens).map((value) => Number(value.split('px')[0]));
+const spacingValues = Object.values(spacing.base.spacing).map(({
+    value
+}) => Number(value.split('px')[0]));
 
 export const baseTheme = {
     breakpoints: {
@@ -32,20 +36,18 @@ export const baseTheme = {
      * https://material-ui.com/customization/globals/#css
      *  */
     overrides: {},
-    props: {
-        ...MuiButtonProps,
-    },
+    props: {},
     spacing: [0, ...spacingValues],
     typography,
     tokens: {
-        color,
-        border: borderTokens,
-        fontSize: fontTokens.size,
-        fontWeight: fontTokens.weight,
-        lineHeight: fontTokens['line-height'],
-        radius: borderTokens.radius,
-        size: sizeTokens,
-        spacing: spacingTokens,
-        opacity: opacityTokens,
+        color: color.base.color,
+        border: border.base.border,
+        fontSize: font.size,
+        fontWeight: font.weight,
+        lineHeight: font['line-height'],
+        radius: border.radius,
+        size: size,
+        spacing: spacing,
+        opacity: opacity,
     },
 };
